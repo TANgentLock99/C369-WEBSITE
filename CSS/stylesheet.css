@@ -1,0 +1,104 @@
+nav ul {
+    list-style: none;    
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar-brand {
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+img {
+    width:20px
+}
+
+.Yes {
+    margin-left: 20px;
+    width: 70%;
+}
+
+.card {
+    margin-top: 20px;
+    border: none;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+}
+
+.card-body {
+    background-color: #f8f9fa;
+}
+
+.card-title {
+    margin: 0;
+    font-size: 1.25rem;
+}
+
+.card-text {
+    margin: 0;
+    font-size: 1rem;
+    color: #6c757d;
+}
+
+img{
+    width: 50px;
+}
+
+.progress-bar {
+    width: 70%; background-color: #28a745;
+}
+
+#courseDetails{
+    display:flex;
+}
+
+.userimg{
+    width:30px;
+}
+
+.cartImg{
+    width:20px;
+}
+
+.bitcoin {
+    width: 200px;
+}
+
+.bitcoinPage{
+    width: 300px;
+}
+
+.moduleDetails{
+    display: flex;
+}
+
+#addCart {
+    width:425px;
+    height:50px;
+    background-color: #28a745;
+}
+
+.moduleChapter{
+    background-color: #6c757d;
+}
+
+#cartDescription {
+    margin-left: 40px
+}
+
+#addCart:hover {
+    border: blue solid ;
+
+}
+
+
+

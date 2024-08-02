@@ -1,0 +1,71 @@
+<head>
+    <title>Online Website</title>
+    <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="CSS/stylesheet.css">
+  </head>
+    
+<body>
+    <nav class="navbar navbar-expand-sm bg-success navbar-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">TechTonic World</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="lessons.html">My lessons</a></li> 
+          <li><a class="nav-link" href="newslines.html">NewsLines</a></li>
+          <li><a class="nav-link" href="courses.html">Courses</a></li>
+          <li><a class="nav-link" href="myCart.html"><img src = "images/cart.png" class = "cartImg">Cart</a></li>
+        </ul>
+
+        <form class="d-flex ms-auto" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search for fintech" aria-label="Search">
+          <button class="btn btn-outline-light" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+</nav>
+
+<br>
+<div id = "cartDescription">
+<h5 class="card-title">Cart List</h5>
+<p class="card-text">Items that are to be bought are stored here</p>
+</div>
+<div class="container mt-4">
+  <div class="row">
+      <div class="col-md-8">
+          <div class="card">
+              <div class="card-body">
+                  <div class="row">
+                      <div class="col-md-6">
+                        <h6>Receipt and Costs</h6>
+                        <p>Total Item cost: <strong>$50.00</strong></p>
+                        <p>Service fees: <strong>$0.00</strong></p>
+                        <hr>
+                        <p>Total cost: <strong>$50.00</strong></p>
+                      </div>
+                      <div class="col-md-6">
+                          <h6>Item List</h6>
+                          <div class="card mb-3">
+                              <div class="card-body">
+                                  <p>Bitcoin and CryptoCurrency<br>by (Insert Author)<br>uploaded on 9th of May 2023</p>
+                              </div>
+                              <button type="button" class="btn-close" aria-label="Close"></button>
+                          </div>
+                      </div>
+                  </div>
+                  <button class="btn btn-success w-100">Pay Now</button>
+              </div>
+          </div>
+      </div>
+      <div class="col-md-4">
+          <button class="btn btn-primary w-100 mb-2">View transaction history</button>
+      </div>
+  </div>
+</div>
+</body>
