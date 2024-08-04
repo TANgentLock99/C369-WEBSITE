@@ -22,11 +22,6 @@ img {
     width:20px
 }
 
-.Yes {
-    margin-left: 20px;
-    width: 70%;
-}
-
 .card {
     margin-top: 20px;
     border: none;
@@ -69,7 +64,7 @@ img{
     width:20px;
 }
 
-.bitcoin {
+#bitcoin {
     width: 200px;
 }
 
@@ -99,6 +94,7 @@ img{
     border: blue solid ;
 
 }
+
 
 
 

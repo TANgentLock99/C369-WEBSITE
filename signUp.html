@@ -9,7 +9,11 @@
         input{
             width: 25%;
             height: 40px;
-            border-radius: 50px;
+            border-radius: 10px;
+            margin-left: 5px;
+        }
+        #submit{
+          margin-left:400px
         }
       </style>
     </head>
@@ -31,9 +35,11 @@
     <form action="one-timepin.html">
         <label>First Name:</label><input type = "text" required>
         <label>Last Name:</label><input type="text" required>
-        <br><br><br>
+        <br><br>
+        <label>Email:</label><input type="text" required>
+        <br><br>
         <label>Enter Password:</label><input type = "text" id = "input1" required><br><br>
         <label>Re-Enter password to confirm:</label><input type = "text" id = "input2" required>
-        <input type = "submit" style="background-color: blue; color: white;">
+        <input id = "submit" type = "submit" style="background-color: blue; color: white;">
     </form>
 </div>

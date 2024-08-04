@@ -11,13 +11,22 @@
     <nav class="navbar navbar-expand-sm bg-success navbar-dark">
     <div class="container-fluid">
       <a class="navbar-brand" href="homepage.html">TechTonic World</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
       <div class="collapse navbar-collapse" id="collapsibleNavbar">
         <ul class="navbar-nav">
-          <li><a class="nav-link" href="newslines.html">NewsLines</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              User Settings
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">My courses</a></li>
+              <li><a class="dropdown-item" href="history.html">Transaction History</a></li>
+              <li><a class="dropdown-item" href="#">Settings</a></li>
+              <li><a class="dropdown-item" href="#">Certificates</a></li>
+              <li><a class="dropdown-item" href="#">My courses</a></li>
+              <li><a class="dropdown-item" href="index.html">Log out</a></li>
+            </ul>
+          </li>
+          <li><a class="nav-link" href="#">NewsLines</a></li>
           <li><a class="nav-link" href="courses.html">Courses</a></li>
           <li><a class="nav-link" href="myCart.html"><img src = "images/cart.png" class = "cartImg">Cart</a></li>
         </ul>
@@ -37,34 +46,34 @@
 </div>
 <div class="container">
   <div class="row">
-      <div class="col-8">
-          <div class="card">
-              <div class="card-body">
-                  <div class="row">
-                  <div class="col-6">
-                    <h5>Receipt and Costs</h5>
-                    <p>Total Item cost: $50.00</p>
-                    <p>Service fees: $0.00</p>
-                    <p>Total cost: $50.00</p>
-                  </div>
-                  <div class="col-md-6">
-                    <h5>Item List</h5>
-                  <div class="card mb-3">
-                  <div class="card-body">
-                    <img src ="images/OIP.jpg">
-                    <p>Bitcoin and CryptoCurrency<br>by (Insert Author)<br>uploaded on 9th of May 2023</p>
-                  </div>
-                  </div>
-                  </div>
-                  </div>
-                  <button style="width: 60%; border-radius: 10px; height: 50px; background-color: rgb(38, 241, 119); color: azure;">
-                    <a href ="paymentchoice.html">pay Now</a>
-                  </button>
-              </div>
+      <div class="col-sm-8">
+      <div class="card">
+        <div class="card-body">
+        <div class="row">
+          <div class="col-sm-6">
+            <h5>Receipt and Costs</h5>
+            <p>Total Item cost: $50.00</p>
+            <p>Service fees: $0.00</p>
+            <p>Total cost: $50.00</p>
           </div>
+          <div class="col-6">
+            <h5>Item List</h5>
+            <div class="card">
+              <div class="card-body">
+              <img src ="images/bitcoinCrypto.jpg">
+              <p>Bitcoin and CryptoCurrency (Full Module)<br>by (Insert Author)<br>uploaded on 9th of May 2023</p>
+              </div>
+            </div>
+          </div>
+          </div>
+          <a href ="paymentchoice.html"><button class = "btn" style="width: 60%; border-radius: 10px; height: 50px; background-color: rgb(38, 241, 119); color: azure;">
+            Pay Now
+            </button></a>
+          </div>
+        </div>
       </div>
-      <div class="col-md-4">
-        <a href = "history.html"><button class="btn btn-primary w-100 mb-2">View transaction history</button></a>
+      <div class="col-sm-4">
+        <a href = "history.html"><button class="btn btn-success">View transaction history</button></a>
       </div>
   </div>
 </div>

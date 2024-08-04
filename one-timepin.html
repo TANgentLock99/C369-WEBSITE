@@ -7,8 +7,7 @@
       <link rel="stylesheet" href="CSS/stylesheet.css">
       <style>
         #onetimePinDetails{
-            text-align:center;
-            margin-top: 50px;
+            margin-top: 20px;
         }
 
         input{
@@ -38,6 +37,7 @@
   <div id = "onetimePinDetails">
   <form action="homepage.html">
     <h1>One time pin</h1>
+    <hr>
     <h2>Enter in the pin below that is sent to the specified email to proceed on</h2>
   <br><br><br>
   <input id = "pin" type="text" required/>
@@ -46,8 +46,14 @@
   </form>
   </div>
   <script>
-    function login(){
-        alert("Login Succesful! Welcome User!")
+  function login(){
+    var input = document.getElementById("pin").value
+    if (input.length > 0){
+      alert("Login Verifed! Welcome User!")
+    }  
+    else{            
+      alert("Please Input a Pin Number.")
+    }
     }
   </script>
   </body>
